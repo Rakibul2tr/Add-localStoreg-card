@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage </title>
+    <style>
+        .main{
+            width: 800px;
+            margin: auto;
+        }
+        #inputField {
+            width: 65%;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        #addbtn {
+        padding: 10px;
+        width: 13%;
+        color: white;
+        background: gray;
+        border-radius: 10px;
+         }
+    ul li {
+        list-style: auto;
+        text-transform: capitalize;
+        padding: 2px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    </style>
+</head>
+<body>
+<div class="main">
+    <h1>Local Storage e Data Add And Card Create</h1>
+    <input type="text" placeholder="Order product" id="inputField">
+    <br>
+    <br>
+    <input type="submit" value="Add Product" id="addbtn" onclick="addbtn()">
+    <input type="submit" value="Clear" id="addbtn" onclick="clearbtn()">
+    <ul id="ul-list"></ul>
+</div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
